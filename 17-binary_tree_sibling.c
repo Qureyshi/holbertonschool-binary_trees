@@ -1,10 +1,10 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_t - Checks if a binary tree is perfect
- * @node: Is a pointer to the root node of the tree to check
+ * binary_tree_t - Finds the sibling of a node
+ * @node: is a pointer to the node to find the sibling
  *
- * Return: Number of nodes in the tree, or 0 if tree is NULL
+ * Return: If node is NULL or the parent is NULL, return NULL, If node has no sibling, return NULL
  */
 
 binary_tree_t *binary_tree_sibling(binary_tree_t *node)
